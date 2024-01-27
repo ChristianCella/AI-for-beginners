@@ -26,7 +26,7 @@ epochs = 150
 # DATA
 
 # Load the dataset.
-X, y = load_data(csv_path='data/pima-indians-diabetes.csv')
+X, y = load_data(csv_path='C:/Users/39339/OneDrive - Politecnico di Milano/POLITECNICO DI MILANO/DOTTORATO/GitHub repositories/DL_where_to_start/examples/simple-ff-network/data/pima-indians-diabetes.csv')
 # Split train and test (or validation) dataset.
 # For more information see: https://machinelearningmastery.com/train-test-split-for-evaluating-machine-learning-algorithms/
 X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=test_fraction, shuffle=True, random_state=random_state)
